@@ -25,7 +25,7 @@ s2tw = OpenCC('s2tw.json').convert
 @MutyalaHarshith.on_message(filters.command("start"))
 async def start(client, message):
    if message.chat.type == 'private':
-       await message.reply_sticker("CAACAgUAAxkBAAIBIWKcJbt8BWI4MYIT42qgLN_t7sxnAAJrBQACNjT5VxtbHQJwITq8HgQ")
+       await message.reply_sticker("CAACAgUAAxkBAAIYeGK1ZXx-OIpekd6pG4JWFIT5ZPtzAAIhBgAC3ZD5V8DbuSeu9KvqHgQ")
        await MutyalaHarshith.send_message(
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm YouTubeDL Bot
